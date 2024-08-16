@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'dynomite';
+    src: url('./DYNOMITE.TTF');
+}
+
+@font-face {
+    font-family: 'ktf-roadbrush';
+    src: url('./KTF-Roadbrush.ttf');
+}
+
+:root {
+    --bg-clr: #ffe31c;
+    --text-clr: #363e92;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: var(--text-clr);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    /* background-color: var(--bg-clr); */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--bg-clr);
+}
+
+.logo, nav {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: normal;
+    font-family: 'dynomite';
+    font-size: 2.5rem;
+}
+
+nav {
+    align-items: center;
+    gap: 15px;
+}
+
+nav>button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-family: 'ktf-roadbrush';
+}
+
+nav>button:hover {
+    background-color: #fc5f1c;
+}
+
+nav>button:active {
+    background-color: #fc5f1c;
+}
