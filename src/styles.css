@@ -59,6 +59,7 @@ nav>button {
     border: none;
     font-size: 1rem;
     font-family: 'ktf-roadbrush';
+    background-color: #fff;
 }
 
 nav>button:hover {
