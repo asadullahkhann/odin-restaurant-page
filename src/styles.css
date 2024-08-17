@@ -60,7 +60,7 @@ header {
     justify-content: center;
 }
 
-.heading>div {
+.heading>div:not(:first-child) {
     font-weight: normal;
     font-family: 'dynomite';
     font-size: 2.5rem;
@@ -81,7 +81,7 @@ nav>button {
     padding: 10px 20px;
     border-radius: 8px;
     border: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'ktf-roadbrush';
     background-color: #fc5f1c;
     color: #fff;
