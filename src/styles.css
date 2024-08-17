@@ -18,6 +18,11 @@
     src: url('./Roboto-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'norse-bold';
+    src: url('./Norse-Bold.otf');
+}
+
 :root {
     --bg-clr: #ffe31c;
     --text-clr: #363e92;
@@ -136,5 +141,26 @@ ul {
 .inner-card img {
     width: 75px;
     height: 75px;
+}
+
+footer {
+    background-color: var(--bg-clr);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+footer p {
+    font-size: 1.3rem;
+    font-family: 'norse-bold';
+}
+
+a {
+    font-style: italic;
+    color: #650000;
+    display: inline-flex;
+    gap: 10px;
+}
+
+a img {
     align-self: center;
 }
