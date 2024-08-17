@@ -1,5 +1,5 @@
 import './styles.css'
-import {getHomeContent} from './home.js';
+import { getHomeContent } from './home.js';
 import { getMenuContent } from './menu.js';
 import { getLegalAndDislaimerContent } from './disclaimer.js';
 
@@ -9,7 +9,7 @@ const menuBtn = document.querySelector('button:nth-child(2)');
 const disclaimerBtn = document.querySelector('button:nth-child(3)');
 window.onload = function() {
     contentDiv.appendChild(getHomeContent().cardHeading);
-    contentDiv.appendChild(getHomeContent().divCard);
+    contentDiv.appendChild(getHomeContent().card);
     contentDiv.classList.add('padding', 'gap')
 };
 

@@ -45,4 +45,4 @@ Get a large bucket, a double fillet, a bulging folvirap and a xtra large blast o
     return {cardHeading, card};
 }
 
-export {getMenuContent}
+export {getMenuContent};
