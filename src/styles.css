@@ -163,3 +163,15 @@ a {
 a img {
     align-self: center;
 }
+
+.align-self-center {
+    align-self: center;
+}
+
+.padding {
+    padding: 25px;
+}
+
+.gap {
+    gap: 15px;
+}

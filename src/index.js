@@ -10,8 +10,7 @@ const disclaimerBtn = document.querySelector('button:nth-child(3)');
 window.onload = function() {
     contentDiv.appendChild(getHomeContent().cardHeading);
     contentDiv.appendChild(getHomeContent().divCard);
-    contentDiv.style.padding = '25px';
-    contentDiv.style.gap = '15px';
+    contentDiv.classList.add('padding', 'gap')
 };
 
 function clearContentDiv() {

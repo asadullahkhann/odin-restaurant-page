@@ -35,7 +35,7 @@ Get a large bucket, a double fillet, a bulging folvirap and a xtra large blast o
         innerCardHeading.textContent = innerCardHeadingTexts[i];
         const innerCardContentEl = document.createElement('div');
         innerCardContentEl.textContent = innerCardTexts[i];
-        textWrapper.style.alignSelf = 'center';
+        textWrapper.classList.add('align-self-center')
         textWrapper.appendChild(innerCardHeading);
         textWrapper.appendChild(innerCardContentEl);
         innerCard.appendChild(imgEl);
