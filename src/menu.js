@@ -6,7 +6,7 @@ const images = [chickenImage1, chickenImage2, chickenImage3, saladImage];
 function getMenuContent() {
     const cardHeading = document.createElement('div');
     cardHeading.classList.add('card-heading');
-    cardHeading.textContent = 'Menu';
+    cardHeading.textContent = 'Nutritious Menu';
     const card = document.createElement('div');
     card.classList.add('card');
     const innerCardHeadingTexts = [
