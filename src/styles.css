@@ -123,8 +123,18 @@ nav>button:active {
     gap: 15px;
 }
 
+.two-column {
+    grid-template-columns: min-content 1fr;
+}
+
 ul {
     padding-left: 25px;
     display: grid;
     gap: 10px;
+}
+
+.inner-card img {
+    width: 75px;
+    height: 75px;
+    align-self: center;
 }
